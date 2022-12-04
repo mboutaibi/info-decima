@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+   }
+
+
+   header{
+    margin: auto;
+    width: 90%;
+    height: 400px;
+    background-color: rgb(104, 157, 236);
+    float: right;
+}
+
+
+#contenido{
+    margin:0 auto;
+    width: 100%;
+    background-color: grey;
+   
+}
+
+nav{
+    margin: auto;
+    background-image:url("../img/nav4.jpg") ;
+    position: relative;
+    width: 10%;
+    height: 965px;
+    float: left;
+    border-radius: 16px;
+  
+    }
+nav div p{
+    margin-top: 25px;
+    font-style: italic;
+    font-size: 15px;
+    background-color: #fafffa;
+    text-align: center;
+}
+
+    div#menu{
+    margin: auto;
+    margin-left: 0%; 
+    width: 90%;
+    margin-top: 100px;
+        
+    }
+
+    div#menu ul{
+        list-style: none; 
+        
+    }
+
+    div#menu ul li{
+    margin: auto;
+    margin-top:15px;
+    font-family: tahoma;
+    font-size: 120%;
+    background-color: #ffcf22;
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0px 20px 20px 0px;
+    padding-left: 20px;
+    box-shadow:5px 0px 10px #939393 ;
+    -webkit-transition: padding-left 0.6s ;
+    }
+
+    div#menu ul li:hover{
+        padding: 30px;
+    }
+
+  .la_liga{
+        margin: auto;
+        margin-top: 10px;
+        margin-left: 5%;
+        border:0px; 
+                
+        }
+        .la_liga img:hover {
+            border-radius:50%;
+            -webkit-border-radius:50%;
+            box-shadow: 0px 0px 15px 15px #131212;
+            -webkit-box-shadow: 0px 0px 15px 15px #382f28;
+            
+            }
+
+   
+
+.media{
+    margin: 0 auto;
+    width: 90%;
+    height: 220px; 
+    max-width: 340px;
+    display: block;
+    margin-top: 5px;
+    border-radius: 15%;
+   
+   }
+
+   aside{
+    margin: auto;
+    height: 550px;
+    width: 20%;
+    margin-top: 15px;
+    float: right;
+    border-radius: 16px;
+    background: linear-gradient(315deg, #656160, #555251);
+    box-shadow:  -5px -5px 10px #4f4c4c,
+             
+}
+
+aside h3{
+    margin: auto;
+    margin-top:70px;
+    font-family: tahoma;
+    font-size: 120%;
+    background-color: #ffcf22;
+    text-align: center;
+    width: 40%;
+    border-radius: 20%;
+  
+   }
+
+aside p{
+    margin: auto;
+    text-align: center; 
+    font-size: 18px; 
+}
+/* contenido */
+main{
+    margin: auto;
+    margin-top: 15px;
+    width: 70%;
+    height: 550px;
+    display: inline-block;
+    border-radius: 33px;
+    background: linear-gradient(315deg, #d3d9d3, #fafffa);
+    box-shadow:  -5px -5px 0px #e8efe8,;
+    overflow: auto;
+                        
+}
+
+main h1{
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px #ababab;
+  }
+
+
+
+main section{
+   margin: auto;
+    margin-left: 10%;
+    vertical-align: middle;
+    font-family: "Trirong", serif;
+    font-size: 30px;
+    text-shadow: 4px 4px 4px #aaa;
+   
+    
+        
+}
+main ul{
+   margin: auto;
+   padding-left: 100px;
+}
+
+main section img{
+    margin: auto;
+    margin-right: 35px;
+    margin-top: 6%;
+    float: right;
+}
+/* section media */
+span p{
+    font-size: 1.875rem;
+    background-color: #fafffa;
+    
+}
+/* footer */
+footer{
+    margin: auto;
+    margin-top: 15px;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(315deg, #425f44, #4e7050);
+    box-shadow:  -5px -5px 10px #3d583f,
+}
+footer h5{
+    
+    text-align: center;
+}

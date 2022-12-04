@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+   }
+
+
+   header{
+    margin: auto;
+    width: 90%;
+    height: 400px;
+    background-color: rgb(104, 157, 236);
+    float: right;
+}
+
+
+#contenido{
+    margin:0 auto;
+    width: 100%;
+    background-color: grey;
+   
+}
+
+nav{
+    margin: auto;
+    background-image:url("../img/nav4.jpg") ;
+    position: relative;
+    width: 10%;
+    height: 1100px;
+    float: left;
+    border-radius: 16px;
+  
+    }
+nav div p{
+    margin-top: 25px;
+    font-style: italic;
+    font-size: 15px;
+    background-color: #fafffa;
+    text-align: center;
+}
+
+    div#menu{
+    margin: auto;
+    margin-left: 0%; 
+    width: 90%;
+    margin-top: 100px;
+        
+    }
+
+    div#menu ul{
+        list-style: none; 
+        
+    }
+
+    div#menu ul li{
+    margin: auto;
+    margin-top:15px;
+    font-family: tahoma;
+    font-size: 120%;
+    background-color: #ffcf22;
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0px 20px 20px 0px;
+    padding-left: 20px;
+    box-shadow:5px 0px 10px #939393 ;
+    -webkit-transition: padding-left 0.6s ;
+    }
+
+    div#menu ul li:hover{
+        padding: 30px;
+    }
+
+  .la_liga{
+        margin: auto;
+        margin-top: 10px;
+        margin-left: 5%;
+        border:0px; 
+                
+        }
+        .la_liga img:hover {
+            border-radius:50%;
+            -webkit-border-radius:50%;
+            box-shadow: 0px 0px 15px 15px #131212;
+            -webkit-box-shadow: 0px 0px 15px 15px #382f28;
+            
+            }
+
+   
+
+/* contenido */
+
+main{
+    margin: auto;
+    margin-top: 15px;
+    width: 90%;
+    height: 685px;
+    display: inline-block;
+    border-radius: 33px;
+    background: linear-gradient(315deg, #d3d9d3, #fafffa);
+    box-shadow:  -5px -5px 0px #e8efe8,;
+      
+                 
+}
+main h1{
+text-align: center;
+margin: auto;
+margin-top: 15px;
+text-align: center;
+font-family: "Audiowide", sans-serif;
+font-size: 30px;
+text-shadow: 3px 3px 3px #ababab;
+    }
+
+
+/* section media */
+span p{
+    font-size: 30px;
+    background-color: #fafffa;
+}
+
+
+
+#vid1{
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 35%;
+    height: 280px; 
+    margin-top: 5px;
+    border-radius: 15%;
+    display:flex;
+    border: solid 2px;
+
+    
+   
+}
+#text_video{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    
+}
+
+
+footer{
+    margin: auto;
+    margin-top: 15px;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(315deg, #425f44, #4e7050);
+    box-shadow:  -5px -5px 10px #3d583f,
+}
+
+
+.redes_main{
+    padding:0px;
+    margin:0px;
+    position:fixed;
+    right:-100px;
+    top:230px;
+    width:210px;
+    z-index: 1100;
+    
+}
+.redes li{
+    list-style-type:none;
+    background-color:rgb(201, 196, 49);
+    color:#efefef;
+    height:43px;
+    padding:0px;
+    margin:0px 0px 1px 0px;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+    cursor:pointer;
+    border-radius: 15%;
+    
+}
+.redes li:hover{
+    margin-left:-115px;
+}
+.redes li img{
+    float:left;
+    margin:5px 4px;
+    margin-right:5px;
+}
+.redes li p{
+    padding-top:5px;
+    margin:0px;
+    line-height:16px;
+    font-size:11px;
+}
+.redes li p a{
+    text-decoration:none;
+    color:#2C3539;
+}
+.redes li p a:hover{
+    text-decoration:underline;
+}
+footer h5{
+    
+    text-align: center;
+}
+
+
+
+ 
